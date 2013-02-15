@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Fastest Painter for Galaxy Note</string>
+   <string name="experience">CREDITI</string>
+   <string name="textexit">USCIRE DAL GIOCO?</string>
+   <string name="addprobabilitytext">VUOI COMPRARLO?</string>
+   <string name="sectionunlocked">SEZIONE SBLOCCATA</string>
+   <string name="bonusunlocked">BONUS SBLOCCATO</string>
+   <string name="ammounlocked">TRICK &#38; TRAP SBLOCCATO</string>
+   <string name="ammounlocked2">PUOI COMPRARLO ORA!</string>
+   <string name="blocked">BLOCCATO</string>
+   <string name="price">PREZZO</string>
+   <string name="skip">SALTA</string>
+   <string name="congratulation">CONGRATULAZIONI!\nORA PROVA A SBLOCCARE TUTTI I QUADRI BONUS \nFACENDO TRE STELLE IN TUTTI I LIVELLI.</string>
+   
+   <string name="sviluppatoda">UN GIOCO SVILUPPATO DA INVENKTION</string>
+   <string name="seguici">SEGUICI SU</string>
+   
+   <string name="apple">Mela</string>
+   <string name="banana">Banana</string>
+   <string name="cocco">Cocco</string>
+   <string name="uva">Uva</string>
+   <string name="limone">Limone</string>
+   <string name="ciliegia">Ciliegia</string>
+   
+   <string name="ritrattovanghog">Ritratto Van Gogh</string>
+   <string name="medusa">Medusa</string>
+   <string name="ermellino">Dama con ermellino</string>
+   <string name="gioconda">La Gioconda</string>
+   <string name="vitruvian">Uomo Vitruviano</string>
+   <string name="starrynight">Notte stellata</string>
+   <string name="youngman">Giovane uomo</string>
+   <string name="tregrazie">Le tre grazie</string>
+   <string name="carlosettimo">Carlo VII di Francia</string>
+   <string name="girasolivangog">Girasoli</string>
+   
+   <string name="napoleonealpi">Napoleone che\nattraversa le Alpi</string>
+   <string name="ficodindaio">Ficodindaio</string>
+   <string name="baccogiovane">Bacco giovane</string>
+   <string name="nascitavenere">La nascita di Venere</string>
+   <string name="venereurbino">Venere di Urbino</string>
+   <string name="duchessaurbino">Duchessa di Urbino</string>
+   <string name="morsoramarro">Ragazzo morso\nda una lucertola</string>
+   <string name="giardiniera">Madonna e figlio\ncon San Giovanni Battista</string>
+   <string name="sognosantelena">Sogno di Santa Elena</string>
+   
+   <string name="ritratto_federico">Federico da\nMontefeltro</string>
+   <string name="eleonoratoledo">Eleanora da Toledo</string>
+   <string name="giannibattista">Giovanni Battista</string>
+   <string name="supperemmaus">La zuppa di Emmaus</string>
+   <string name="autoritrattorembrant">Ritratto di Rembrandt</string>
+   <string name="mariamaddalena">Maria Maddalena</string>
+   <string name="figliaherodias">Salome\nla figlia di Erode</string>
+   
+   <string name="ragazzaorecchinoperla">Ragazza con\norecchino di perla</string>
+   <string name="johnannfriendrick">Johann Friedrich</string>
+   <string name="angeliraffaello">Angeli della Madonna Sistina</string>
+   <string name="giocatoricarte">Giocatori di carte</string>
+   <string name="sleepinggipsy">Zingaro che dorme</string>
+   <string name="annazborowska">Anna Borowska</string>
+   <string name="demoiselleavignon">Le dame di Avignone</string>
+   <string name="juanpareja">Juan de Pareja</string>
+   <string name="souvenirvojage">Ricordo di viaggio</string>
+   <string name="uomobombetta">Uomo con la bombetta</string>
+   
+   <string name="urlomunch">Urlo di Much</string>
+   <string name="bernardobrembo">Uomo con medaglia romana</string>
+   <string name="marat">La morte di Marat</string>
+   <string name="merylaurent">Mery Laurent</string>
+   <string name="frida">Frida</string>
+   <string name="americangothic">American Gothic</string>
+   <string name="watteau">Jean Antoine Watteau</string>
+   <string name="bacioklimt">Il bacio</string>
+   <string name="ritrattomonet">Ritratto di Monet</string>
+   <string name="tsunami">Tsunami</string>
+   
+   <string name="autoritratto">Autoritratto</string>
+   <string name="autoritrattovelasquez">Velasquez</string>
+   <string name="colossus">Il colosso</string>
+   <string name="donna_collare_rosso">Donna col collare rosso</string>
+   <string name="duca_alba">Duca di Alba</string>
+   <string name="duchessa_alba">Duchessa di Alba</string>
+   <string name="Filippo_armatura">Filippo con armatura</string>
+   <string name="ritratto_mia_sorella">Mia sorella</string>
+   <string name="ritratto_mio_padre">Mio padre</string>
+   <string name="saint_paul">San Paolo</string>
+   <string name="saturno">Saturno</string>
+   <string name="tandem">Tandem</string>
+   
+   <string name="zatteramedusa">La zattera della Medusa</string>
+   <string name="libertacheguidapopolo">Libertà che guida\nil popolo</string>
+   <string name="curiazi">Curiazi</string>
+   <string name="quartostato">Quarto stato</string>
+   <string name="persistencememory">Persistence Memory</string>
+   <string name="martirio_san_bartolomeo">Martirio San Bartolomeo</string>
+</resources>
