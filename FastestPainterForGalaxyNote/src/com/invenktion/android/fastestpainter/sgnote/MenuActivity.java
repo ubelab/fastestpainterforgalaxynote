@@ -9,6 +9,7 @@ import com.invenktion.android.fastestpainter.sgnote.core.TimeManager;
 import com.invenktion.android.fastestpainter.sgnote.R;
 import com.invenktion.android.fastestpainter.sgnote.receiver.ScreenReceiver;
 import com.invenktion.android.fastestpainter.sgnote.utils.ActivityHelper;
+import com.invenktion.android.fastestpainter.sgnote.utils.Foreground;
 import com.invenktion.android.fastestpainter.sgnote.utils.LogUtils;
 import com.invenktion.android.fastestpainter.sgnote.utils.SharedPreferencesUtils;
 import com.invenktion.android.fastestpainter.sgnote.view.FingerPaintDrawableView;
@@ -185,10 +186,6 @@ public class MenuActivity extends Activity{
 	@Override
 	protected void onPause() {
 		super.onPause();
-		//Spengo la musica solo se un'altra applicazione è davanti alla nostra (VOICE CALL, HOME Button, etc..)
-		if(ActivityHelper.isApplicationBroughtToBackground(this)) {
-			SoundManager.pauseBackgroundMusic();
-		}
 	}
 
 	@Override
@@ -206,7 +203,7 @@ public class MenuActivity extends Activity{
 		}
 		return false;
 	}
-	
+
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {

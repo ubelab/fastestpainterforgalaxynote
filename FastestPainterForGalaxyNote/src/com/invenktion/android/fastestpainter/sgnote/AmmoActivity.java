@@ -77,10 +77,6 @@ public class AmmoActivity extends Activity{
 	@Override
 	protected void onPause() {
 		super.onPause();
-		//Spengo la musica solo se un'altra applicazione è davanti alla nostra (VOICE CALL, HOME Button, etc..)
-		if(ActivityHelper.isApplicationBroughtToBackground(this)) {
-			SoundManager.pauseBackgroundMusic();
-		}
 	}
 
 	//Questo viene chiamato quando l'utente clicca il tasto "back" e dal livello torna qui

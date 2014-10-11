@@ -623,7 +623,7 @@ public final class R {
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #HelloGallery_android_galleryItemBackground com.invenktion.android.fastestpainter.sgnote:android_galleryItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #HelloGallery_android_galleryItemBackground android:galleryItemBackground}</code></td><td></td></tr>
            </table>
            @see #HelloGallery_android_galleryItemBackground
          */
@@ -631,9 +631,9 @@ public final class R {
             0x0101004c
         };
         /**
-          <p>This symbol is the offset where the {@link com.invenktion.android.fastestpainter.sgnote.R.attr#android_galleryItemBackground}
+          <p>This symbol is the offset where the {@link android.R.attr#galleryItemBackground}
           attribute's value can be found in the {@link #HelloGallery} array.
-          @attr name android:android_galleryItemBackground
+          @attr name android:galleryItemBackground
         */
         public static final int HelloGallery_android_galleryItemBackground = 0;
     };
