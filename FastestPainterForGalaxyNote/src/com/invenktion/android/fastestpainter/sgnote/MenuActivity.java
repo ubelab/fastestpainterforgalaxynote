@@ -7,7 +7,6 @@ import com.invenktion.android.fastestpainter.sgnote.core.LevelManager;
 import com.invenktion.android.fastestpainter.sgnote.core.SoundManager;
 import com.invenktion.android.fastestpainter.sgnote.core.TimeManager;
 import com.invenktion.android.fastestpainter.sgnote.R;
-import com.invenktion.android.fastestpainter.sgnote.receiver.ScreenReceiver;
 import com.invenktion.android.fastestpainter.sgnote.utils.ActivityHelper;
 import com.invenktion.android.fastestpainter.sgnote.utils.Foreground;
 import com.invenktion.android.fastestpainter.sgnote.utils.LogUtils;
@@ -52,8 +51,6 @@ public class MenuActivity extends Activity{
 	//Typeface font; 
 	float DENSITY = 1.0f;
 	
-	BroadcastReceiver mReceiver;
-	
 	static final int DIALOG_EXIT_APPLICATION = 0;
 	private boolean waiting = false;
 	private boolean waitingAudio = false;
@@ -76,9 +73,7 @@ public class MenuActivity extends Activity{
 		LevelManager.clearAllCachedImage();
 		//AnimationFactory.releaseAllAnimation();
 		//Log.d("Sound finalized!","### Sound finalized! ###");
-		if(mReceiver != null) {
-			unregisterReceiver(mReceiver);
-		}
+		
 		//Log.e("MenuActivity","DESTROY MenuActivity ####################");
 		super.onDestroy();
 	}
@@ -213,9 +208,7 @@ public class MenuActivity extends Activity{
         IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
         filter.addAction(Intent.ACTION_SCREEN_OFF);
         filter.addAction(Intent.ACTION_USER_PRESENT);
-        mReceiver = new ScreenReceiver();
-        registerReceiver(mReceiver, filter);
-        
+       
         setContentView(R.layout.home);
         this.DENSITY = getApplicationContext().getResources().getDisplayMetrics().density;
         
